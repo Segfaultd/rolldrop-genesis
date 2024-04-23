@@ -10,7 +10,7 @@ This is specifically useful when there are a large number of accounts to be adde
    ```json
    [
        {
-         "claimAddress": "<address>", # Valid lower case hex address
+         "claim_address": "<address>", # Valid lower case hex address
          "amount": "<amount>", # Amount of tokens to be allocated in base denomination
          "vesting": { # Vesting can be omitted if the allocation is not vested
            "start_time": "<start_time>", # Unix timestamp
